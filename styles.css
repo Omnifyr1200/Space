@@ -179,7 +179,7 @@ border-radius: 2.5em;
 }
 
 /* rainbow flashing text */
-h6 {
+h6 h3 {
     animation:rainbowText 2s infinite;
 }
 @keyframes rainbowText{
