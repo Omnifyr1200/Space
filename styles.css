@@ -56,17 +56,12 @@ html, body {
         color:rgba(64, 0, 0, 1) ;
 }
 
-.Player-rank{
-        color:rgba(64, 0, 0, 1) ;
-}
+.Player-rank {
+     font-size: 3em;
+     font-family: "papyrus", fantasy;
+     color:rgba(255, 255, 255, 0.8);
+    }
 
-.board_size {
-        color:rgba(64, 0, 0, 1) ;
-}
-
-.game_name {
-        color:rgba(64, 0, 0, 1) ;
-}
 	
 
 /*HIDE PARTS*/
