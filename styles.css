@@ -35,8 +35,9 @@ html, body {
 }
 
 .ratings-container{
-	max-width: none !important;
-   background-image: url('https://i.imgur.com/bYP6uD7.jpg');
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  opacity: 0.7;
 }
 
 	
