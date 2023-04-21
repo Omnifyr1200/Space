@@ -38,12 +38,6 @@ html, body {
   background-color: rgba(0,0,0,0);
 	
 }
-.about-container h6 {
-    color:RGBA( 0, 206, 209, 1 );
-    font-family: "Baloo 2"
-    font-size: 3em;
-    position: absolute;
-}
 
 
 .ratings-container{
@@ -51,13 +45,23 @@ html, body {
   padding: 10px;
   opacity: 0.7;
 }
+.ratings-row {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  opacity: 0.7;
+}
+.col-sm-12{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  opacity: 0.7;
+}
 
-	
 
 .container {
     max-width: none !important;
    background-image: url('https://thumbs.gfycat.com/AbandonedGrimKagu-size_restricted.gif');
 }
+
 
 .date {
         color:rgba(64, 0, 0, 1) ;
@@ -80,13 +84,9 @@ html, body {
 .PaginatedTable.review-history-table.clickable-rows {
 	display: none !important;
 }
-.col-sm-12{
-	display: none !important;
-}
 
-.ratings-row {
-	display: none !important;
-}
+
+
 
 .col-sm-4{
 	display: none !important;
@@ -183,18 +183,4 @@ border-radius: 2.5em;
   100% { 
     transform: translateX(-100%) translateY(-20%); 
   }
-}
-
-/* rainbow flashing text */
-h6{
-    animation:rainbowText 2s infinite;
-}
-@keyframes rainbowText{
-    0%   {  color: #FF0900; }
-    17%  {  color: #FF7F00; }
-    33%  {  color: #FFEF00; }
-    50%  {  color: #00F11D; }
-    67%  {  color: #0079FF; }
-    83%  {  color: #A800FF; }
-    100% {  color: #FF0900; }
 }
