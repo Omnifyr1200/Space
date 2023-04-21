@@ -64,10 +64,11 @@ html, body {
 	
 
 /*HIDE PARTS*/
-PaginatedTable.review-history-table.clickable-rows {
+
+.PaginatedTable.review-history-table.clickable-rows {
 	display: none !important;
 }
-.PaginatedTable.game-history-table.clickable-rows{
+.col-sm-12{
 	display: none !important;
 }
 
