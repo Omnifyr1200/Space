@@ -45,16 +45,6 @@ html, body {
   padding: 10px;
   opacity: 0.7;
 }
-.ratings-row {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  opacity: 0.7;
-}
-.col-sm-12{
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  opacity: 0.7;
-}
 
 
 .container {
@@ -80,12 +70,6 @@ html, body {
 .PlayerIcon.PlayerIcon-128{
 	display: none !important;
 }
-
-.PaginatedTable.review-history-table.clickable-rows {
-	display: none !important;
-}
-
-
 
 
 .col-sm-4{
