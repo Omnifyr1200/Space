@@ -38,20 +38,9 @@ html, body {
 	max-width: none !important;
    background-image: url('https://i.imgur.com/bYP6uD7.jpg');
 }
-.PaginatedTable.game-history-table.clickable-rows{
-	background-image: url('https://i.imgur.com/xnZLmtX.jpg');
-	background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0,0,0,0);
-}
+
 	
-PaginatedTable.review-history-table.clickable-rows {
-	background-image: url('https://i.imgur.com/xnZLmtX.jpg');
-	width: 100% !important;
-        height: 100% !important;
-	border: solid;
-}
+
 .container {
     max-width: none !important;
    background-image: url('https://img.gifmagazine.net/gifmagazine/images/704479/original.gif');
@@ -75,6 +64,12 @@ PaginatedTable.review-history-table.clickable-rows {
 	
 
 /*HIDE PARTS*/
+PaginatedTable.review-history-table.clickable-rows {
+	display: none !important;
+}
+.PaginatedTable.game-history-table.clickable-rows{
+	display: none !important;
+}
 
 .ratings-row {
 	display: none !important;
