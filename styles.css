@@ -46,12 +46,6 @@ html, body {
   opacity: 0.7;
 }
 
-.col-sm-12{
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  opacity: 0.7;
-}
-
 
 .container {
     max-width: none !important;
@@ -73,6 +67,9 @@ html, body {
 	display: none !important;
 }
 
+.col-sm-12{
+  	display: none !important;
+}
 
 .col-sm-4{
 	display: none !important;
