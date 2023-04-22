@@ -131,6 +131,14 @@ margin-right: auto;
 border-radius: 2.5em;
 }
 
+.yt-video {
+  width: 240px;
+  height: 135px;
+margin-left: auto;
+margin-right: auto;
+margin-center: auto;
+border-radius: 2.5em;
+}
 
 /*ANIMATION*/
 
