@@ -131,6 +131,11 @@ margin-right: auto;
 border-radius: 2.5em;
 }
 
+.gif{
+ transform: scale(0.5);
+margin-center: auto;
+}
+
 .yt-video {
   width: 15em;
   height: 8.44em;
