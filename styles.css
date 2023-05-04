@@ -74,7 +74,7 @@ html, body {
   background-position: center;
   background-color: rgba(0,0,0,0);
 }
-	.card{
+	.Card{
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
   opacity: 0.8;
